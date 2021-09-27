@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_sjq",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "Azure Data Lake Storage Gen2 file"
+		},
+		"sqlPool": {
+			"referenceName": "prdq2calnuw6z34kpocws1p1",
+			"type": "SqlPoolReference"
+		}
+	}
+}
