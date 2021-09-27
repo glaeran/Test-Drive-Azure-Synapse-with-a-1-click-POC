@@ -1,0 +1,26 @@
+{
+	"name": "SourceDataset_sjq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Arkusz1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Purview",
+				"fileSystem": "public"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Województwo",
+				"type": "String"
+			}
+		]
+	}
+}
